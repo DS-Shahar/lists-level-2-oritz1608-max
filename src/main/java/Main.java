@@ -16,11 +16,11 @@ public static Node<Integer> L2EX3(Node<Integer> head, int x)
               h=h.getNext();
           }
       }
-      while(h.getValue()!=null)
+      while(h!=null)
       {
           h=h.getNext();
           fCount++;
-          if(h.getValue==getNext)
+          if(h.getValue()==x)
           {
               fCount=0;
           }
