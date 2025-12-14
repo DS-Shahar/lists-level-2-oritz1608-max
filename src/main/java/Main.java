@@ -1,6 +1,10 @@
 public static Node<Integer> L2EX3(Node<Integer> head, int x)  
   {
       Node<Integer> h = new Node<>(head.getValue(), head.getNext());
+      if(ex5a_ifNumIn(x,head)==false)
+      {
+          return -1;
+      }
       boolean boo =true;
       int count =0;
       int fCount=0;
